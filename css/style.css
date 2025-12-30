@@ -52,7 +52,8 @@ h1,h2,h3,h4{ font-family: Poppins, system-ui, Arial; margin:0; }
 
 .nav{ display:flex; gap: 12px; }
 .nav__link{
-  color: rgba(229,231,235,0.88);
+  color: rgba(229,231,235,0.86);
+  text-decoration: none;
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.10);
   padding: 8px 10px;
@@ -351,4 +352,5 @@ html{
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
 }
+
 
