@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Showcase CSS Moderno</title>
+
+  <!-- Google Fonts (títulos + texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <h1 class="logo"><i class="fa-solid fa-wand-magic-sparkles"></i> Showcase CSS Moderno</h1>
+
+      <nav class="nav">
+        <a class="nav__link" href="#features">Features</a>
+        <a class="nav__link" href="#galeria">Galería</a>
+        <a class="nav__link" href="#cta">CTA</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__content">
+        <p class="kicker">Proyecto Showcase de CSS en Diseño de Interfaces Web</p>
+        <h2>Diseño limpio, efectos modernos y responsive.</h2>
+        <p class="lead">Pseudoclases, animaciones, imágenes con efectos, iconos y tipografías externas.</p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#features"><i class="fa-solid fa-bolt"></i> Ver secciones</a>
+          <a class="btn btn--ghost" href="#galeria"><i class="fa-regular fa-images"></i> Ver galería</a>
+        </div>
+
+        <label class="input-wrap">
+          <span>Prueba: focus</span>
+          <input class="input" type="text" placeholder="Escribe algo..." />
+        </label>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h3 class="section__title">Secciones / Cards</h3>
+        <p class="section__subtitle">Tarjetas con iconos + hover + nth-child.</p>
+
+        <div class="grid">
+          <article class="card">
+            <i class="fa-solid fa-wand-magic-sparkles card__icon"></i>
+            <h4>Hover & Active</h4>
+            <p>Botones con cambios visuales y feedback al pulsar.</p>
+            <button class="btn btn--small" type="button"><i class="fa-solid fa-hand-pointer"></i> Probar</button>
+          </article>
+
+          <article class="card">
+            <i class="fa-solid fa-mobile-screen card__icon"></i>
+            <h4>Responsive</h4>
+            <p>Grid adaptable a móvil con media queries.</p>
+            <button class="btn btn--small" type="button"><i class="fa-solid fa-arrows-to-eye"></i> Ver</button>
+          </article>
+
+          <article class="card">
+            <i class="fa-solid fa-film card__icon"></i>
+            <h4>Animación</h4>
+            <p>Animación suave con @keyframes integrada.</p>
+            <button class="btn btn--small" type="button"><i class="fa-solid fa-play"></i> Animar</button>
+          </article>
+
+          <article class="card">
+            <i class="fa-solid fa-layer-group card__icon"></i>
+            <h4>mix-blend-mode</h4>
+            <p>Overlay de color sobre imagen de fondo.</p>
+            <button class="btn btn--small" type="button"><i class="fa-solid fa-droplet"></i> Efecto</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section">
+      <div class="container">
+        <h3 class="section__title">Galería</h3>
+        <p class="section__subtitle">Imágenes con hover y transición.</p>
+
+        <div class="gallery">
+          <figure class="shot"><img src="img/g1.jpg" alt="Imagen 1"></figure>
+          <figure class="shot"><img src="img/g2.jpg" alt="Imagen 2"></figure>
+          <figure class="shot"><img src="img/g3.jpg" alt="Imagen 3"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section section--cta">
+      <div class="container cta">
+        <h3>Publicación en portfolio</h3>
+        <ul class="cta-list">
+          <li class="cta-item">
+            <span class="cta-label">Repositorio público</span>
+            <a class="btn btn--small" href="#" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Repositorio
+            </a>
+          </li>
+
+          <li class="cta-item">
+            <span class="cta-label">GitHub Pages</span>
+            <a class="btn btn--ghost btn--small" href="#" target="_blank" rel="noopener">
+              <i class="fa-solid fa-globe"></i> Demo
+            </a>
+          </li>
+
+          <li class="cta-item">
+            <span class="cta-label">Post en LinkedIn</span>
+            <a class="btn btn--ghost btn--small" href="#" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Showcase CSS Moderno · Proyecto creado pot Manuel Aparicio</p>
+      <p class="muted">Tipografías: Google Fonts · Iconos: Font Awesome</p>
+    </div>
+  </footer>
+</body>
+</html>
