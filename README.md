@@ -1,7 +1,7 @@
 # Modern CSS Showcase (DIW)
 
 ## Overview
-Static HTML/CSS project for **DIW** to showcase modern CSS: pseudoclasses, transitions/animations, blend effects, and responsive design. :contentReference[oaicite:0]{index=0}
+Static HTML/CSS project for **DIW** to showcase modern CSS: pseudoclasses, transitions/animations, blend effects, and responsive design.
 
 ## Live Demo
 ```bash
